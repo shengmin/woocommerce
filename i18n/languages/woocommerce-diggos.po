@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-07-19 18:26-0500\n"
+"PO-Revision-Date: 2013-07-19 18:40-0500\n"
 "Last-Translator: ShengMin Zhang <me@shengmin.me>\n"
 "Language-Team: Diggos <me@shengmin.me>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: assets/js/admin/editor_plugin_lang.php:6
 msgid "Product price/cart button"
-msgstr ""
+msgstr "Product price/FoodBox button"
 
 #: assets/js/admin/editor_plugin_lang.php:7
 msgid "Product by SKU/ID"
@@ -56,7 +56,7 @@ msgstr ""
 #: assets/js/admin/editor_plugin_lang.php:15
 #: classes/widgets/class-wc-widget-cart.php:61
 msgid "Cart"
-msgstr ""
+msgstr "FoodBox"
 
 #: assets/js/admin/editor_plugin_lang.php:16
 msgid "Checkout"
@@ -309,6 +309,9 @@ msgid ""
 "stock). Please edit your cart and try again. We apologise for any "
 "inconvenience caused."
 msgstr ""
+"Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in "
+"stock). Please edit your FoodBox and try again. We apologise for any "
+"inconvenience caused."
 
 #: classes/class-wc-cart.php:479 classes/class-wc-cart.php:488
 msgid ""
@@ -316,6 +319,9 @@ msgid ""
 "stock). Please edit your cart and try again. We apologise for any "
 "inconvenience caused."
 msgstr ""
+"Sorry, we do not have enough \"%s\" in stock to fulfil your order (%s in "
+"stock). Please edit your FoodBox and try again. We apologise for any "
+"inconvenience caused."
 
 #: classes/class-wc-cart.php:523
 msgid ""
@@ -323,12 +329,17 @@ msgid ""
 "Please try again in %d minutes or edit your cart and try again. We apologise "
 "for any inconvenience caused."
 msgstr ""
+"Sorry, we do not have enough \"%s\" in stock to fulfil your order right now. "
+"Please try again in %d minutes or edit your FoodBox and try again. We "
+"apologise for any inconvenience caused."
 
 #: classes/class-wc-cart.php:533
 msgid ""
 "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We "
 "apologise for any inconvenience caused."
 msgstr ""
+"Sorry, \"%s\" is not in stock. Please edit your FoodBox and try again. We "
+"apologise for any inconvenience caused."
 
 #: classes/class-wc-cart.php:845
 msgid "Sorry, &quot;%s&quot; cannot be purchased."
@@ -339,28 +350,34 @@ msgid ""
 "You cannot add &quot;%s&quot; to the cart because the product is out of "
 "stock."
 msgstr ""
+"You cannot add &quot;%s&quot; to the FoodBox because the product is out of "
+"stock."
 
 #: classes/class-wc-cart.php:857
 msgid ""
 "You cannot add that amount of &quot;%s&quot; to the cart because there is "
 "not enough stock (%s remaining)."
 msgstr ""
+"You cannot add that amount of &quot;%s&quot; to the FoodBox because there is "
+"not enough stock (%s remaining)."
 
 #: classes/class-wc-cart.php:869 classes/class-wc-cart.php:883
 #: classes/class-wc-cart.php:891 templates/cart/mini-cart.php:68
 #: woocommerce-functions.php:497 woocommerce.php:1210
 msgid "View Cart &rarr;"
-msgstr ""
+msgstr "View FoodBox &rarr;"
 
 #: classes/class-wc-cart.php:869
 msgid "You already have this item in your cart."
-msgstr ""
+msgstr "You already have this item in your FoodBox."
 
 #: classes/class-wc-cart.php:883 classes/class-wc-cart.php:891
 msgid ""
 "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the "
 "cart &mdash; we have %s in stock and you already have %s in your cart."
 msgstr ""
+"<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the "
+"FoodBox &mdash; we have %s in stock and you already have %s in your FoodBox."
 
 #: classes/class-wc-cart.php:1813
 msgid "via"
@@ -1642,7 +1659,7 @@ msgstr ""
 
 #: classes/class-wc-coupon.php:469
 msgid "Sorry, this coupon is not applicable to your cart contents."
-msgstr ""
+msgstr "Sorry, this coupon is not applicable to your FoodBox contents."
 
 #: classes/class-wc-coupon.php:472
 msgid "Sorry, this coupon is not valid for sale items."
@@ -1705,11 +1722,11 @@ msgstr ""
 
 #: classes/class-wc-order.php:950
 msgid "Cart Subtotal:"
-msgstr ""
+msgstr "FoodBox Subtotal:"
 
 #: classes/class-wc-order.php:956
 msgid "Cart Discount:"
-msgstr ""
+msgstr "FoodBox Discount:"
 
 #: classes/class-wc-order.php:962
 msgid "Shipping:"
@@ -1758,7 +1775,7 @@ msgstr ""
 #: templates/single-product/add-to-cart/simple.php:42
 #: templates/single-product/add-to-cart/variable.php:83
 msgid "Add to cart"
-msgstr ""
+msgstr "Add to FoodBox"
 
 #: classes/emails/class-wc-email-customer-completed-order.php:24
 msgid "Completed order"
@@ -2402,7 +2419,7 @@ msgstr ""
 
 #: classes/gateways/paypal/class-wc-gateway-paypal.php:448
 msgid "Cancel order &amp; restore cart"
-msgstr ""
+msgstr "Cancel order &amp; restore FoodBox"
 
 #: classes/gateways/paypal/class-wc-gateway-paypal.php:502
 msgid ""
@@ -2489,7 +2506,7 @@ msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:88
 msgid "Add event tracking code for add to cart actions"
-msgstr ""
+msgstr "Add event tracking code for add to FoodBox actions"
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:120
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:180
@@ -2511,7 +2528,7 @@ msgstr ""
 
 #: classes/integrations/google-analytics/class-wc-google-analytics.php:294
 msgid "Add to Cart"
-msgstr ""
+msgstr "Add to FoodBox"
 
 #: classes/integrations/sharedaddy/class-wc-sharedaddy.php:26
 msgid "ShareDaddy"
@@ -2560,7 +2577,7 @@ msgstr ""
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:22
 #: classes/integrations/shareyourcart/class.shareyourcart-wp.php:329
 msgid "ShareYourCart"
-msgstr ""
+msgstr "ShareYourFoodBox"
 
 #: classes/integrations/shareyourcart/class-wc-shareyourcart.php:23
 msgid ""
@@ -2570,10 +2587,15 @@ msgid ""
 "\"http://docs.woothemes.com/document/shareyourcart/\" target=\"__blank"
 "\">documentation</a>."
 msgstr ""
+"Increase your social media exposure by 10 percent! ShareYourFoodBox helps "
+"you get more customers by motivating satisfied customers to talk with their "
+"friends about your products. For help with ShareYourFoodBox view the <a href="
+"\"http://docs.woothemes.com/document/shareyourcart/\" target=\"__blank"
+"\">documentation</a>."
 
 #: classes/integrations/shareyourcart/class.shareyourcart-wp.php:328
 msgid "Share your cart settings"
-msgstr ""
+msgstr "Share your FoodBox settings"
 
 #: classes/integrations/shareyourcart/class.shareyourcart-wp.php:342
 msgid "Button"
@@ -2590,7 +2612,7 @@ msgstr ""
 
 #: classes/integrations/shareyourcart/views/admin-page.php:33
 msgid "Setup your ShareYourCart account"
-msgstr ""
+msgstr "Setup your ShareYourFoodBox account"
 
 #: classes/integrations/shareyourcart/views/admin-page.php:35
 msgid "Create an account"
@@ -2906,7 +2928,7 @@ msgstr ""
 
 #: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:117
 msgid "Percentage of cart total"
-msgstr ""
+msgstr "Percentage of FoodBox total"
 
 #: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:118
 msgid "Fixed amount per product"
@@ -3145,15 +3167,15 @@ msgstr ""
 
 #: classes/widgets/class-wc-widget-cart.php:33
 msgid "Display the user's Cart in the sidebar."
-msgstr ""
+msgstr "Display the user's FoodBox in the sidebar."
 
 #: classes/widgets/class-wc-widget-cart.php:35
 msgid "WooCommerce Cart"
-msgstr ""
+msgstr "WooCommerce FoodBox"
 
 #: classes/widgets/class-wc-widget-cart.php:113
 msgid "Hide if cart is empty"
-msgstr ""
+msgstr "Hide if FoodBox is empty"
 
 #: classes/widgets/class-wc-widget-featured-products.php:35
 msgid "Display a list of featured products on your site."
@@ -4883,7 +4905,7 @@ msgstr ""
 
 #: templates/cart/cart-empty.php:14
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Your FoodBox is currently empty."
 
 #: templates/cart/cart-empty.php:18
 msgid "&larr; Return To Shop"
@@ -4941,7 +4963,7 @@ msgstr ""
 
 #: templates/cart/cart.php:134
 msgid "Update Cart"
-msgstr ""
+msgstr "Update FoodBox"
 
 #: templates/cart/cart.php:134
 msgid "Proceed to Checkout &rarr;"
@@ -4953,7 +4975,7 @@ msgstr ""
 
 #: templates/cart/mini-cart.php:55
 msgid "No products in the cart."
-msgstr ""
+msgstr "No items in the FoodBox."
 
 #: templates/cart/mini-cart.php:63
 msgid "Subtotal"
@@ -5011,16 +5033,16 @@ msgstr ""
 
 #: templates/cart/totals.php:22
 msgid "Cart Totals"
-msgstr ""
+msgstr "FoodBox Totals"
 
 #: templates/cart/totals.php:28 templates/checkout/review-order.php:27
 msgid "Cart Subtotal"
-msgstr ""
+msgstr "FoodBox Subtotal"
 
 #: templates/cart/totals.php:35 templates/checkout/review-order.php:34
 #: woocommerce.php:1690
 msgid "Cart Discount"
-msgstr ""
+msgstr "FoodBox Discount"
 
 #: templates/cart/totals.php:35 templates/cart/totals.php:83
 msgid "[Remove]"
@@ -5060,10 +5082,12 @@ msgid ""
 "There are some issues with the items in your cart (shown above). Please go "
 "back to the cart page and resolve these issues before checking out."
 msgstr ""
+"There are some issues with the items in your FoodBox (shown above). Please "
+"go back to the FoodBox page and resolve these issues before checking out."
 
 #: templates/checkout/cart-errors.php:20
 msgid "&larr; Return To Cart"
-msgstr ""
+msgstr "&larr; Return To FoodBox"
 
 #: templates/checkout/form-billing.php:17
 msgid "Billing &amp; Shipping"
@@ -5985,11 +6009,11 @@ msgstr ""
 
 #: woocommerce-functions.php:226 woocommerce-functions.php:271
 msgid "Cart updated."
-msgstr ""
+msgstr "FoodBox updated."
 
 #: woocommerce-functions.php:257
 msgid "You can only have 1 %s in your cart."
-msgstr ""
+msgstr "You can only have 1 %s in your FoodBox."
 
 #: woocommerce-functions.php:315 woocommerce-functions.php:373
 msgid "Please choose product options&hellip;"
@@ -5999,14 +6023,15 @@ msgstr ""
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr ""
+"Please choose the quantity of items you wish to add to your FoodBox&hellip;"
 
 #: woocommerce-functions.php:413
 msgid "Please choose a product to add to your cart&hellip;"
-msgstr ""
+msgstr "Please choose an item to add to your FoodBox&hellip;"
 
 #: woocommerce-functions.php:482
 msgid "Added &quot;%s&quot; to your cart."
-msgstr ""
+msgstr "Added &quot;%s&quot; to your FoodBox."
 
 #: woocommerce-functions.php:482
 msgid "&quot; and &quot;"
@@ -6014,7 +6039,7 @@ msgstr ""
 
 #: woocommerce-functions.php:485
 msgid "&quot;%s&quot; was successfully added to your cart."
-msgstr ""
+msgstr "&quot;%s&quot; was successfully added to your FoodBox."
 
 #: woocommerce-functions.php:493
 msgid "Continue Shopping &rarr;"
@@ -6064,7 +6089,7 @@ msgstr ""
 
 #: woocommerce-functions.php:870
 msgid "The cart has been filled with the items from your previous order."
-msgstr ""
+msgstr "The FoodBox has been filled with the items from your previous order."
 
 #: woocommerce-functions.php:896
 msgid "Order cancelled by customer."
@@ -6568,7 +6593,7 @@ msgstr ""
 
 #: woocommerce.php:1691
 msgid "Cart % Discount"
-msgstr ""
+msgstr "FoodBox % Discount"
 
 #: woocommerce.php:1692
 msgid "Product Discount"
