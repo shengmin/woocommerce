@@ -794,8 +794,8 @@ class WC_Checkout {
 				$default_billing_state  = apply_filters('default_checkout_state', $woocommerce->customer->get_state());
 				$default_shipping_state = apply_filters('default_checkout_state', $woocommerce->customer->get_shipping_state());
 			} else {
-				$default_billing_state  = apply_filters('default_checkout_state', '');
-				$default_shipping_state = apply_filters('default_checkout_state', '');
+				$default_billing_state  = apply_filters('default_checkout_state', null);
+				$default_shipping_state = apply_filters('default_checkout_state', null);
 			}
 
 			if ( $input == "billing_country" )
@@ -805,7 +805,7 @@ class WC_Checkout {
 				return $default_billing_state;
 
 			if ( $input == "billing_postcode" )
-				return $woocommerce->customer->get_postcode() ? $woocommerce->customer->get_postcode() : '';
+				return $woocommerce->customer->get_postcode() ? $woocommerce->customer->get_postcode() : null;
 
 			if ( $input == "shipping_country" )
 				return $default_shipping_country;
@@ -814,7 +814,7 @@ class WC_Checkout {
 				return $default_shipping_state;
 
 			if ( $input == "shipping_postcode" )
-				return $woocommerce->customer->get_shipping_postcode() ? $woocommerce->customer->get_shipping_postcode() : '';
+				return $woocommerce->customer->get_shipping_postcode() ? $woocommerce->customer->get_shipping_postcode() : null;
 		}
 	}
 }
